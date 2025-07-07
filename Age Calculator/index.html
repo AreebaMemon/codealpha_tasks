@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator with Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Enter Your Date of Birth</h2>
+    <div class="label-row">
+      <label for="selday">Day</label>
+      <label for="selmonth">Month</label>
+      <label for="selyear">Year</label>
+    </div>
+    <div class="date-row">
+      <input type="number" id="selday" placeholder="Day" />
+      <input type="number" id="selmonth" placeholder="Month" />
+      <input type="number" id="selyear" placeholder="Year" />
+    </div>
+
+    <h2>Current Date</h2>
+    <p id="currDate"></p>
+    <div class="label-row">
+      <label>Day</label>
+      <label>Month</label>
+      <label>Year</label>
+    </div>
+    <div class="date-row">
+      <input type="number" id="currday" readonly />
+      <input type="number" id="currmonth" readonly />
+      <input type="number" id="curryear" readonly />
+    </div>
+
+    <br /><br />
+    <button>Calculate</button>
+
+    <p id="result">Result</p>
+
+    <script src="index.js"></script>
+
+   
+  </body>
+</html>
